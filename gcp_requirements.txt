@@ -31,6 +31,5 @@ sendgrid==6.11.0
 email-validator==2.2.0
 joblib==1.4.2
 pytz==2024.1
-sift-stack-py==0.8.5
 gdown==5.2.0
 SQLAlchemy==2.0.31
