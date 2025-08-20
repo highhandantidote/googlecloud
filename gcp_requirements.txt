@@ -1,56 +1,36 @@
-# Core Flask dependencies
-flask==3.0.3
-flask-sqlalchemy==3.1.1
-flask-migrate==4.0.7
-flask-mail==0.9.1
-flask-login==0.6.3
-flask-wtf==1.2.1
-werkzeug==3.0.3
-gunicorn==22.0.0
-
-# Database
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+Flask-Mail==0.9.1
+Flask-Migrate==4.0.7
+Flask-WTF==1.2.1
+WTForms==3.1.2
 psycopg2-binary==2.9.9
-sqlalchemy==2.0.31
-
-# Configuration
-python-dotenv==1.0.1
-pytz==2024.1
-
-# Forms and validation
-wtforms==3.1.2
-email-validator==2.2.0
-
-# Payment processing
-razorpay==1.4.2
-
-# HTTP requests
-requests==2.32.3
-
-# Image processing
-pillow==10.4.0
+gunicorn==21.2.0
+Werkzeug==3.0.3
+Pillow==10.4.0
 opencv-python==4.10.0.84
-
-# AI and ML
-mediapipe==0.10.14
+mediapipe==0.10.11
 google-generativeai==0.7.2
+anthropic==0.28.1
+requests==2.32.3
+beautifulsoup4==4.12.3
+python-dotenv==1.0.1
 numpy==1.26.4
 scikit-learn==1.5.1
-
-# Text processing
-textblob==0.18.0.post0
-langdetect==1.0.9
+scipy==1.13.1
 nltk==3.8.1
-beautifulsoup4==4.12.3
-trafilatura==1.12.2
+textblob==0.18.0
 fuzzywuzzy==0.18.0
-python-levenshtein==0.25.1
-
-# Caching and messaging
+python-Levenshtein==0.25.1
+langdetect==1.0.9
+trafilatura==1.8.0
+razorpay==1.4.2
 redis==5.0.7
-
-# Email service
 sendgrid==6.11.0
-
-# Utilities
+email-validator==2.2.0
 joblib==1.4.2
-scipy==1.14.0
+pytz==2024.1
+sift-stack-py==1.0.3
+gdown==5.2.0
+SQLAlchemy==2.0.31
